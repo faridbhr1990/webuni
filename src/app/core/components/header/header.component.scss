@@ -1,0 +1,33 @@
+@import'../../../../assets/scss/theme/variables';
+@import'../../../../assets/scss/theme/typography';
+
+.navbar{
+    margin-top: 8vh;
+}
+.nav-link{
+    margin-right: 5vh;
+    color: $mainfontcolor;
+}
+.nav-link:hover{
+    color: $mainredcolor;   
+}
+.navbar-brand{
+    width: 25vh;
+    height: 7vh;
+    margin-left: 15vh;
+    margin-right: 25vh;
+}
+@media (max-width: 991.98px) {
+    #navbarSupportedContent {
+        .navbar-nav , #btnlogin{
+            margin-left: 10vh;
+        }
+    }
+    .navbar-toggler{
+        color: $mainfontcolor;
+        background-color: $mainfontcolor;
+        position: fixed;
+        right: 10vh;
+        top: 10vh;
+    }
+  }

@@ -1,0 +1,22 @@
+@import'./variables';
+
+h1 {
+    font-size:400px;
+    color: $mainfontcolor;
+    font-weight: 1000;
+}
+.btn {
+    background-color: $mainredcolor;
+    color: $mainfontcolor;
+    width: 25vh;
+    height: 7vh;
+    border-radius: 0;
+}
+input {
+    width: 45vh; 
+    height: 7vh; 
+    padding-left:5vh;
+    ::placeholder{
+        color: gray;   
+    } 
+  }
